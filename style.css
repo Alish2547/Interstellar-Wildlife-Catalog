@@ -1,0 +1,92 @@
+body {
+    margin: 0 150px;
+    width: fit-content;
+
+}
+
+.header__sec h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+hr {
+    max-width: 95%;
+}
+
+/* Alein species Secction */
+
+.aleinspecies__section {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.alein__conteiner {
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: wheat;
+
+}
+
+.alein__conteiner h3 {
+    margin: 0 auto;
+}
+
+.alein__img {
+    width: 300px;
+}
+
+.alein__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Bio Scanner index section */
+.bioscaner table,
+th,
+td,
+tr {
+    border: 1px solid black;
+    min-width: 50%;
+    min-height: 300px;
+    width: fit-content;
+}
+
+/* Planet habits section */
+
+/* grid sistemin ??????? */
+.planet__conteiner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.planetcard {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+
+.planet__img {
+    width: 350px;
+    object-position: center;
+    overflow: hidden;
+}
+
+.planet__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
