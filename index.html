@@ -18,14 +18,14 @@
         </section>
         <nav>
             <ul>
-                <li><a href="#">Species</a>|</li>
-                <li><a href="#">Bio Scanner</a>|</li>
-                <li><a href="#">Habitats</a>|</li>
-                <li><a href="#">Genetics</a>|</li>
+                <li><a href="#">Species</a></li>|
+                <li><a href="#">Bio Scanner</a></li>|
+                <li><a href="#">Habitats</a></li>|
+                <li><a href="#">Genetics</a></li>|
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <figure>
+        <figure class="header__img">
             <img src="https://picsum.photos/seed/galaxy-header/1200/450" alt="">
         </figure>
         <hr>
@@ -33,22 +33,34 @@
     <main>
         <section class="aleinspecies">
             <h2>Alien Species</h2>
-            <div class="aleinspecies__section">
-                <div class="alein__conteiner">
-                    <h3>Arcturian Ice Serpent
-                    </h3>
+            <div class="aleinspecies__conteiner">
+                <div class="alein__card">
+                    <span>
+                        <h3>Arcturian Ice Serpent
+                        </h3>
+                    </span>
                     <figure class="alein__img"><img src="https://picsum.photos/seed/serpent/400/300" alt=""></figure>
-                    <p>Lives beneath frozen oceans and glows in total darkness.</p>
+                    <span>
+                        <p>Lives beneath frozen oceans and glows in total darkness.</p>
+                    </span>
                 </div>
-                <div class="alein__conteiner">
-                    <h3>Voltar Beetle Titan</h3>
+                <div class="alein__card">
+                    <span>
+                        <h3>Voltar Beetle Titan</h3>
+                    </span>
                     <figure class="alein__img"><img src="https://picsum.photos/seed/beetle/400/300" alt=""></figure>
-                    <p>A metal-shelled insect capable of transmitting radio waves.</p>
+                    <span>
+                        <p>A metal-shelled insect capable of transmitting radio waves.</p>
+                    </span>
                 </div>
-                <div class="alein__conteiner">
-                    <h3>Nebula Cloud Ray</h3>
+                <div class="alein__card">
+                    <span>
+                        <h3>Nebula Cloud Ray</h3>
+                    </span>
                     <figure class="alein__img"><img src="https://picsum.photos/seed/ray/400/300" alt=""></figure>
-                    <p>A floating organism that feeds on starlight particles.</p>
+                    <span>
+                        <p>A floating organism that feeds on starlight particles.</p>
+                    </span>
                 </div>
             </div>
             <hr>
@@ -118,12 +130,18 @@
         <!-- Dropdown menu -->
         <section>
             <h2>Genetic Breakdown</h2>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <hr>
+            <details>
+                <summary>Ice Serpent DNA</summary>
+                <p>Contains cryo-cell structures capable of regenerating in sub-zero environments.</p>
+            </details>
+            <details>
+                <summary>Beetle Titan DNA</summary>
+                <p>Metallic exoskeleton grown through bio-iron absorption.</p>
+            </details>
+            <details>
+                <summary>Cloud Ray DNA</summary>
+                <p>Plasma-light membranes that store stellar radiation.</p>
+            </details>
         </section>
         <section>
             <h2>Send Interstellar Message</h2>
